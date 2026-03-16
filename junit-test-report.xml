@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="10.604451000000001">
+<testsuite name="usePageObjects.spec.ts" timestamp="2026-02-26T05:35:26.757Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.917" errors="0">
+<testcase name="fill the form" classname="usePageObjects.spec.ts" time="7.917">
+<system-out>
+<![CDATA[First name is:Annette
+Radio button selected
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

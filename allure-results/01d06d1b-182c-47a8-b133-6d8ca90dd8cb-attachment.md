@@ -1,0 +1,202 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - text: Elements
+        - img [ref=e22]
+      - generic [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]:
+          - img [ref=e29]
+          - text: Forms
+        - img [ref=e35]
+      - generic [ref=e39] [cursor=pointer]:
+        - generic [ref=e40]:
+          - img [ref=e42]
+          - text: Alerts, Frame & Windows
+        - img [ref=e47]
+      - generic [ref=e49]:
+        - generic [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - text: Widgets
+          - img [ref=e60]
+        - list [ref=e63]:
+          - listitem [ref=e64] [cursor=pointer]:
+            - link "Accordian" [ref=e65]:
+              - /url: /accordian
+              - img [ref=e66]
+              - text: Accordian
+          - listitem [ref=e68] [cursor=pointer]:
+            - link "Auto Complete" [ref=e69]:
+              - /url: /auto-complete
+              - img [ref=e70]
+              - text: Auto Complete
+          - listitem [ref=e72] [cursor=pointer]:
+            - link "Date Picker" [ref=e73]:
+              - /url: /date-picker
+              - img [ref=e74]
+              - text: Date Picker
+          - listitem [ref=e76] [cursor=pointer]:
+            - link "Slider" [ref=e77]:
+              - /url: /slider
+              - img [ref=e78]
+              - text: Slider
+          - listitem [ref=e80] [cursor=pointer]:
+            - link "Progress Bar" [ref=e81]:
+              - /url: /progress-bar
+              - img [ref=e82]
+              - text: Progress Bar
+          - listitem [ref=e84] [cursor=pointer]:
+            - link "Tabs" [ref=e85]:
+              - /url: /tabs
+              - img [ref=e86]
+              - text: Tabs
+          - listitem [ref=e88] [cursor=pointer]:
+            - link "Tool Tips" [active] [ref=e89]:
+              - /url: /tool-tips
+              - img [ref=e90]
+              - text: Tool Tips
+          - listitem [ref=e92] [cursor=pointer]:
+            - link "Menu" [ref=e93]:
+              - /url: /menu
+              - img [ref=e94]
+              - text: Menu
+          - listitem [ref=e96] [cursor=pointer]:
+            - link "Select Menu" [ref=e97]:
+              - /url: /select-menu
+              - img [ref=e98]
+              - text: Select Menu
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]:
+          - img [ref=e105]
+          - text: Interactions
+        - img [ref=e110]
+      - generic [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - text: Book Store Application
+        - img [ref=e122]
+    - generic [ref=e125]:
+      - heading "Select Menu" [level=1] [ref=e126]
+      - generic [ref=e128]: Select Value
+      - generic [ref=e131]:
+        - log [ref=e133]
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]: Group 1, option 1
+            - combobox [ref=e138]
+          - img [ref=e142]
+      - generic [ref=e145]: Select One
+      - generic [ref=e148]:
+        - log [ref=e150]
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e153]: Select Title
+            - combobox [ref=e155]
+          - img [ref=e159]
+      - generic [ref=e162]: Old Style Select Menu
+      - combobox [ref=e166]:
+        - option "Red"
+        - option "Blue" [selected]
+        - option "Green"
+        - option "Yellow"
+        - option "Purple"
+        - option "Black"
+        - option "White"
+        - option "Voilet"
+        - option "Indigo"
+        - option "Magenta"
+        - option "Aqua"
+      - generic [ref=e168]:
+        - paragraph [ref=e169]: Multiselect drop down
+        - generic [ref=e170]:
+          - log [ref=e172]
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e175]: Select...
+              - combobox [ref=e177]
+            - img [ref=e181]
+      - generic [ref=e184]:
+        - paragraph [ref=e185]: Standard multi select
+        - listbox [ref=e186]:
+          - option "Volvo" [ref=e187]
+          - option "Saab" [ref=e188]
+          - option "Opel" [ref=e189]
+          - option "Audi" [ref=e190]
+    - iframe [ref=e199]:
+      - generic [active] [ref=f8e1]:
+        - generic [ref=f8e4]:
+          - link [ref=f8e5] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEwUh_U6dadfLMpCr4-EPx4OTqQG7q4aohQHyw6f25xTv08fUkw4QASDG-9Z5YOXq4wOgAcKRrcQ-yAEJqQLF5E8HAKFHPuACAKgDAcgDCqoEiwJP0FqgVPymhmQd2fzCa02AjIQOl-kbvPb6bTXP-p1pgU_NGoAz9X6UuoFQi-agKKE7JN9Lfo95FM_g6LD-z-q3677ww_LH90L0JbOD3yhwO5XpBfNEb-H0hlpMKJzNvQl3SxOZIX7jKyXc4t-bfnNy7B42FNgTO5495rEEhiuWKgc1elTlHtwUWqyMfmOkB1OnawYdEIc4ViB89L5iUHHEOfCJ6OiynwaTzQs_FZqgnpk_HMfPWIiRC0ihgEwljGJLg4SAY0EMGtt5ra2DknVbhDbIBEzi16rZRvMMkH_OhWO-2Lauw6KZFS-pPgwsfZM4Nj9TbFASb8a8Snw0sJHUvIItITt2vHrWsOXABJWItabEBeAEAYgF9qnB41egBi6AB8LJ_aMZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-cqotMnxkgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCQ2La4VSh7LNgAoDmAsByAsBgAwBogwDkAEBqg0CSU7IDQHiDRMItoiptMnxkgMVkNU4Bh3HwSQV6g0TCO3uqbTJ8ZIDFZDVOAYdx8EkFfANAogO____________AdgTA4gUAtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAQGv3QBIKNjE2ODU3NjUwNRgBshgJEgLuThguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE&num=1&cid=CAQSvwEA56J1eY1O1efOSgbY-dlEF_fk4mzdaoOswB96DZjfjvIoTteNvO-dt-lmJ9YkegcR7sfvT2tZ9bL-JPHuX4PZZCEu-RU0SK5tpO-tx_HRau6Cqlw4lh1M71Q7MGM6XYTZBCsw5dMcm7UtGBaHp1bFdqG8gLmb1hoftM_ZDXuxyCmu1AEtYiqNSVCdphAFrpV1jOgn8eD1k2KMQSpoDD57eWnGE92z-VJju4fCy3HXsRHHLWfij24XJeHz537rFhgB&sig=AOD64_290OWjmaXYN0CGZ0F2jL8wRfSneA&client=ca-pub-4573231550355221&rf=4&nb=9&adurl=https://www.youtube.com/%40reservebankofindia593%3Fgad_source%3D5%26gad_campaignid%3D23562573046%26gclid%3DEAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE
+            - img [ref=f8e6]
+          - generic [ref=f8e8]:
+            - generic [ref=f8e10]:
+              - link "Don’t Risk Jail for Easy Money" [ref=f8e13] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEwUh_U6dadfLMpCr4-EPx4OTqQG7q4aohQHyw6f25xTv08fUkw4QASDG-9Z5YOXq4wOgAcKRrcQ-yAEJqQLF5E8HAKFHPuACAKgDAcgDCqoEiwJP0FqgVPymhmQd2fzCa02AjIQOl-kbvPb6bTXP-p1pgU_NGoAz9X6UuoFQi-agKKE7JN9Lfo95FM_g6LD-z-q3677ww_LH90L0JbOD3yhwO5XpBfNEb-H0hlpMKJzNvQl3SxOZIX7jKyXc4t-bfnNy7B42FNgTO5495rEEhiuWKgc1elTlHtwUWqyMfmOkB1OnawYdEIc4ViB89L5iUHHEOfCJ6OiynwaTzQs_FZqgnpk_HMfPWIiRC0ihgEwljGJLg4SAY0EMGtt5ra2DknVbhDbIBEzi16rZRvMMkH_OhWO-2Lauw6KZFS-pPgwsfZM4Nj9TbFASb8a8Snw0sJHUvIItITt2vHrWsOXABJWItabEBeAEAYgF9qnB41egBi6AB8LJ_aMZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-cqotMnxkgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCQ2La4VSh7LNgAoDmAsByAsBgAwBogwDkAEBqg0CSU7IDQHiDRMItoiptMnxkgMVkNU4Bh3HwSQV6g0TCO3uqbTJ8ZIDFZDVOAYdx8EkFfANAogO____________AdgTA4gUAtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAQGv3QBIKNjE2ODU3NjUwNRgBshgJEgLuThguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE&num=1&cid=CAQSvwEA56J1eY1O1efOSgbY-dlEF_fk4mzdaoOswB96DZjfjvIoTteNvO-dt-lmJ9YkegcR7sfvT2tZ9bL-JPHuX4PZZCEu-RU0SK5tpO-tx_HRau6Cqlw4lh1M71Q7MGM6XYTZBCsw5dMcm7UtGBaHp1bFdqG8gLmb1hoftM_ZDXuxyCmu1AEtYiqNSVCdphAFrpV1jOgn8eD1k2KMQSpoDD57eWnGE92z-VJju4fCy3HXsRHHLWfij24XJeHz537rFhgB&sig=AOD64_290OWjmaXYN0CGZ0F2jL8wRfSneA&client=ca-pub-4573231550355221&rf=4&nb=0&adurl=https://www.youtube.com/%40reservebankofindia593%3Fgad_source%3D5%26gad_campaignid%3D23562573046%26gclid%3DEAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE
+              - link "Protect your account. Protect yourself from financial fraud and misuse." [ref=f8e16] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEwUh_U6dadfLMpCr4-EPx4OTqQG7q4aohQHyw6f25xTv08fUkw4QASDG-9Z5YOXq4wOgAcKRrcQ-yAEJqQLF5E8HAKFHPuACAKgDAcgDCqoEiwJP0FqgVPymhmQd2fzCa02AjIQOl-kbvPb6bTXP-p1pgU_NGoAz9X6UuoFQi-agKKE7JN9Lfo95FM_g6LD-z-q3677ww_LH90L0JbOD3yhwO5XpBfNEb-H0hlpMKJzNvQl3SxOZIX7jKyXc4t-bfnNy7B42FNgTO5495rEEhiuWKgc1elTlHtwUWqyMfmOkB1OnawYdEIc4ViB89L5iUHHEOfCJ6OiynwaTzQs_FZqgnpk_HMfPWIiRC0ihgEwljGJLg4SAY0EMGtt5ra2DknVbhDbIBEzi16rZRvMMkH_OhWO-2Lauw6KZFS-pPgwsfZM4Nj9TbFASb8a8Snw0sJHUvIItITt2vHrWsOXABJWItabEBeAEAYgF9qnB41egBi6AB8LJ_aMZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-cqotMnxkgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCQ2La4VSh7LNgAoDmAsByAsBgAwBogwDkAEBqg0CSU7IDQHiDRMItoiptMnxkgMVkNU4Bh3HwSQV6g0TCO3uqbTJ8ZIDFZDVOAYdx8EkFfANAogO____________AdgTA4gUAtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAQGv3QBIKNjE2ODU3NjUwNRgBshgJEgLuThguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE&num=1&cid=CAQSvwEA56J1eY1O1efOSgbY-dlEF_fk4mzdaoOswB96DZjfjvIoTteNvO-dt-lmJ9YkegcR7sfvT2tZ9bL-JPHuX4PZZCEu-RU0SK5tpO-tx_HRau6Cqlw4lh1M71Q7MGM6XYTZBCsw5dMcm7UtGBaHp1bFdqG8gLmb1hoftM_ZDXuxyCmu1AEtYiqNSVCdphAFrpV1jOgn8eD1k2KMQSpoDD57eWnGE92z-VJju4fCy3HXsRHHLWfij24XJeHz537rFhgB&sig=AOD64_290OWjmaXYN0CGZ0F2jL8wRfSneA&client=ca-pub-4573231550355221&rf=4&nb=7&adurl=https://www.youtube.com/%40reservebankofindia593%3Fgad_source%3D5%26gad_campaignid%3D23562573046%26gclid%3DEAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE
+                - text: Protect your account. Protect yourself from
+                - text: financial fraud and misuse.
+            - generic [ref=f8e19]:
+              - link:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEwUh_U6dadfLMpCr4-EPx4OTqQG7q4aohQHyw6f25xTv08fUkw4QASDG-9Z5YOXq4wOgAcKRrcQ-yAEJqQLF5E8HAKFHPuACAKgDAcgDCqoEiwJP0FqgVPymhmQd2fzCa02AjIQOl-kbvPb6bTXP-p1pgU_NGoAz9X6UuoFQi-agKKE7JN9Lfo95FM_g6LD-z-q3677ww_LH90L0JbOD3yhwO5XpBfNEb-H0hlpMKJzNvQl3SxOZIX7jKyXc4t-bfnNy7B42FNgTO5495rEEhiuWKgc1elTlHtwUWqyMfmOkB1OnawYdEIc4ViB89L5iUHHEOfCJ6OiynwaTzQs_FZqgnpk_HMfPWIiRC0ihgEwljGJLg4SAY0EMGtt5ra2DknVbhDbIBEzi16rZRvMMkH_OhWO-2Lauw6KZFS-pPgwsfZM4Nj9TbFASb8a8Snw0sJHUvIItITt2vHrWsOXABJWItabEBeAEAYgF9qnB41egBi6AB8LJ_aMZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-cqotMnxkgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCQ2La4VSh7LNgAoDmAsByAsBgAwBogwDkAEBqg0CSU7IDQHiDRMItoiptMnxkgMVkNU4Bh3HwSQV6g0TCO3uqbTJ8ZIDFZDVOAYdx8EkFfANAogO____________AdgTA4gUAtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAQGv3QBIKNjE2ODU3NjUwNRgBshgJEgLuThguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE&num=1&cid=CAQSvwEA56J1eY1O1efOSgbY-dlEF_fk4mzdaoOswB96DZjfjvIoTteNvO-dt-lmJ9YkegcR7sfvT2tZ9bL-JPHuX4PZZCEu-RU0SK5tpO-tx_HRau6Cqlw4lh1M71Q7MGM6XYTZBCsw5dMcm7UtGBaHp1bFdqG8gLmb1hoftM_ZDXuxyCmu1AEtYiqNSVCdphAFrpV1jOgn8eD1k2KMQSpoDD57eWnGE92z-VJju4fCy3HXsRHHLWfij24XJeHz537rFhgB&sig=AOD64_290OWjmaXYN0CGZ0F2jL8wRfSneA&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.youtube.com/%40reservebankofindia593%3Fgad_source%3D5%26gad_campaignid%3D23562573046%26gclid%3DEAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE
+              - link "Reserve Bank of India" [ref=f8e21] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEwUh_U6dadfLMpCr4-EPx4OTqQG7q4aohQHyw6f25xTv08fUkw4QASDG-9Z5YOXq4wOgAcKRrcQ-yAEJqQLF5E8HAKFHPuACAKgDAcgDCqoEiwJP0FqgVPymhmQd2fzCa02AjIQOl-kbvPb6bTXP-p1pgU_NGoAz9X6UuoFQi-agKKE7JN9Lfo95FM_g6LD-z-q3677ww_LH90L0JbOD3yhwO5XpBfNEb-H0hlpMKJzNvQl3SxOZIX7jKyXc4t-bfnNy7B42FNgTO5495rEEhiuWKgc1elTlHtwUWqyMfmOkB1OnawYdEIc4ViB89L5iUHHEOfCJ6OiynwaTzQs_FZqgnpk_HMfPWIiRC0ihgEwljGJLg4SAY0EMGtt5ra2DknVbhDbIBEzi16rZRvMMkH_OhWO-2Lauw6KZFS-pPgwsfZM4Nj9TbFASb8a8Snw0sJHUvIItITt2vHrWsOXABJWItabEBeAEAYgF9qnB41egBi6AB8LJ_aMZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-cqotMnxkgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCQ2La4VSh7LNgAoDmAsByAsBgAwBogwDkAEBqg0CSU7IDQHiDRMItoiptMnxkgMVkNU4Bh3HwSQV6g0TCO3uqbTJ8ZIDFZDVOAYdx8EkFfANAogO____________AdgTA4gUAtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAQGv3QBIKNjE2ODU3NjUwNRgBshgJEgLuThguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE&num=1&cid=CAQSvwEA56J1eY1O1efOSgbY-dlEF_fk4mzdaoOswB96DZjfjvIoTteNvO-dt-lmJ9YkegcR7sfvT2tZ9bL-JPHuX4PZZCEu-RU0SK5tpO-tx_HRau6Cqlw4lh1M71Q7MGM6XYTZBCsw5dMcm7UtGBaHp1bFdqG8gLmb1hoftM_ZDXuxyCmu1AEtYiqNSVCdphAFrpV1jOgn8eD1k2KMQSpoDD57eWnGE92z-VJju4fCy3HXsRHHLWfij24XJeHz537rFhgB&sig=AOD64_290OWjmaXYN0CGZ0F2jL8wRfSneA&client=ca-pub-4573231550355221&rf=4&nb=1&adurl=https://www.youtube.com/%40reservebankofindia593%3Fgad_source%3D5%26gad_campaignid%3D23562573046%26gclid%3DEAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE
+              - link "Open" [ref=f8e23] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEwUh_U6dadfLMpCr4-EPx4OTqQG7q4aohQHyw6f25xTv08fUkw4QASDG-9Z5YOXq4wOgAcKRrcQ-yAEJqQLF5E8HAKFHPuACAKgDAcgDCqoEiwJP0FqgVPymhmQd2fzCa02AjIQOl-kbvPb6bTXP-p1pgU_NGoAz9X6UuoFQi-agKKE7JN9Lfo95FM_g6LD-z-q3677ww_LH90L0JbOD3yhwO5XpBfNEb-H0hlpMKJzNvQl3SxOZIX7jKyXc4t-bfnNy7B42FNgTO5495rEEhiuWKgc1elTlHtwUWqyMfmOkB1OnawYdEIc4ViB89L5iUHHEOfCJ6OiynwaTzQs_FZqgnpk_HMfPWIiRC0ihgEwljGJLg4SAY0EMGtt5ra2DknVbhDbIBEzi16rZRvMMkH_OhWO-2Lauw6KZFS-pPgwsfZM4Nj9TbFASb8a8Snw0sJHUvIItITt2vHrWsOXABJWItabEBeAEAYgF9qnB41egBi6AB8LJ_aMZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-cqotMnxkgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCQ2La4VSh7LNgAoDmAsByAsBgAwBogwDkAEBqg0CSU7IDQHiDRMItoiptMnxkgMVkNU4Bh3HwSQV6g0TCO3uqbTJ8ZIDFZDVOAYdx8EkFfANAogO____________AdgTA4gUAtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAQGv3QBIKNjE2ODU3NjUwNRgBshgJEgLuThguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE&num=1&cid=CAQSvwEA56J1eY1O1efOSgbY-dlEF_fk4mzdaoOswB96DZjfjvIoTteNvO-dt-lmJ9YkegcR7sfvT2tZ9bL-JPHuX4PZZCEu-RU0SK5tpO-tx_HRau6Cqlw4lh1M71Q7MGM6XYTZBCsw5dMcm7UtGBaHp1bFdqG8gLmb1hoftM_ZDXuxyCmu1AEtYiqNSVCdphAFrpV1jOgn8eD1k2KMQSpoDD57eWnGE92z-VJju4fCy3HXsRHHLWfij24XJeHz537rFhgB&sig=AOD64_290OWjmaXYN0CGZ0F2jL8wRfSneA&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.youtube.com/%40reservebankofindia593%3Fgad_source%3D5%26gad_campaignid%3D23562573046%26gclid%3DEAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE
+              - link [ref=f8e24] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEwUh_U6dadfLMpCr4-EPx4OTqQG7q4aohQHyw6f25xTv08fUkw4QASDG-9Z5YOXq4wOgAcKRrcQ-yAEJqQLF5E8HAKFHPuACAKgDAcgDCqoEiwJP0FqgVPymhmQd2fzCa02AjIQOl-kbvPb6bTXP-p1pgU_NGoAz9X6UuoFQi-agKKE7JN9Lfo95FM_g6LD-z-q3677ww_LH90L0JbOD3yhwO5XpBfNEb-H0hlpMKJzNvQl3SxOZIX7jKyXc4t-bfnNy7B42FNgTO5495rEEhiuWKgc1elTlHtwUWqyMfmOkB1OnawYdEIc4ViB89L5iUHHEOfCJ6OiynwaTzQs_FZqgnpk_HMfPWIiRC0ihgEwljGJLg4SAY0EMGtt5ra2DknVbhDbIBEzi16rZRvMMkH_OhWO-2Lauw6KZFS-pPgwsfZM4Nj9TbFASb8a8Snw0sJHUvIItITt2vHrWsOXABJWItabEBeAEAYgF9qnB41egBi6AB8LJ_aMZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-cqotMnxkgPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCQ2La4VSh7LNgAoDmAsByAsBgAwBogwDkAEBqg0CSU7IDQHiDRMItoiptMnxkgMVkNU4Bh3HwSQV6g0TCO3uqbTJ8ZIDFZDVOAYdx8EkFfANAogO____________AdgTA4gUAtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAQGv3QBIKNjE2ODU3NjUwNRgBshgJEgLuThguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE&num=1&cid=CAQSvwEA56J1eY1O1efOSgbY-dlEF_fk4mzdaoOswB96DZjfjvIoTteNvO-dt-lmJ9YkegcR7sfvT2tZ9bL-JPHuX4PZZCEu-RU0SK5tpO-tx_HRau6Cqlw4lh1M71Q7MGM6XYTZBCsw5dMcm7UtGBaHp1bFdqG8gLmb1hoftM_ZDXuxyCmu1AEtYiqNSVCdphAFrpV1jOgn8eD1k2KMQSpoDD57eWnGE92z-VJju4fCy3HXsRHHLWfij24XJeHz537rFhgB&sig=AOD64_290OWjmaXYN0CGZ0F2jL8wRfSneA&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.youtube.com/%40reservebankofindia593%3Fgad_source%3D5%26gad_campaignid%3D23562573046%26gclid%3DEAIaIQobChMIl77CtMnxkgMVkNU4Bh3HwSQVEAEYASAAEgLsDfD_BwE
+                - generic [ref=f8e25]:
+                  - img [ref=f8e26]
+                  - img [ref=f8e28]
+        - generic [ref=f8e33]:
+          - link [ref=f8e35] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AWUvr316I3RSNCXbKufK3GNEi04s4pqtNlzGMFC1Hx8Bwp-HfvyHOimQSZbVUAoWuefxYdOOTTFU6cG8OO0qfJ3T376OnWOTBJ-n2B6Kco5k8BzDrxAUFCNLWWtKatzFj_GPMfmdvE4TSa0NSXJcORqAHwG1eJ1qC05MmsKBh4lpvrO5LX_u6Buhdu7_wDnbcELDS2skCKQp6Gq-HTOhqnYFosGrjzvT-fZtV95ODxxb31MmJeOcy1CN_ApAmfKMQxY9v8Dyf1BS60hKF69RFrhXyea40hd0JY2Qht9BKPYisNZ34rZE8e9LOhbaqS5xfP_3nWvIokZOPJc5_a_L8f0RLlD3jt5nBv0myQETVYhe0_CUdlMTHppwx90G0yu_wZworHhdX52z4gIAH-Y8I8znFei_J0x9X6VMvDqyuhKl7ckhundkBFxLD_NSB48wo1H9U19sRYfp4AiHnmqP3BulQCREz4NNfvOepZwymNxOA6FT9g03dW5R-vaWa9xf1653g1dNLSXBqEVRPOPJUaXpGGDX9VR_SgNF3bJ_JEq17upmpNe-rCvhkWd2BeIRxIJ3W8o5F5O7yANQWXOefhS63H-8lXOtWEHxoEhm_V3mI1Y7ANnXvVuOgQT25oejvC2Roq-AWkFtLFkr1nHV-Rbhi_eR1hVNUkayPsvjedUjJQIhsEGLQ1HPV12Cti6SBb2xwuvKUVCS4M642dNo5QCIm0bLWQgsIibE3yenJsKBJ1QZQmcu61HtMuYQwWIA1kZtlCX19JPSPwFPf_hAICz1KqnhBPv5DZJo3Kyd6cIcRt-OcnZb_JD6kzv7kJhTxqhHkHGYdh-uM28mdT1TLtb5jtUI85Dz0MgtPjA6Yk6Vy70NZLJVmhGLzbx9S-R_hhBFsUABa0Ktx1StGayPa7lr_bp8ExOrOCUVYjZcyqouNnMV6EIR0iwzzBNx3WKS2xP4oVmy1qY8smFVRMtJKmFx0cGl0FqjqoqZCwObv4nWLIGUjYzUkHAUTI5HQAbF6ESCJ81xVb3rhcpLR4NbBzZFwb0k59_z_4WKQ1SU4p7dQ1cx1OXIRArdosbEe3aO9tITM8GzEGZFkbRPINh8hyqwZfYQzDjyIIF6iKc5PWFX1iXZwSGxia5LEVBySdyQievQsUE4NoJwebWq_bGRguxudgabglmBzBDVWxaFhwWs81-wbvPZyngkzOs9W_gia4FlimHAjKynU2vWROvjFXBh37ZqFMinfHaR4Lghl5khnXJdsJ4uVKQsiFwhaxo1iX5-Dn_PwxizxptHkpf73RkFLJCa6P3xBhx3dCvY_7FlwxkFCCsL2U9rFnIwGhH9vIoMYL4rdeiNiWUhxqBRcOXUsuQL63ynKc9XHPqayr5Zqk8xqdrGhSf0bI3wHu-Wry_aN0tnFTqXIThwdL2uLQxcAueWZ21mxqL8KlXdoMcpgQOrDpOJHzuf4E5crZIR13A1o7WciJXgL0O98MiXdudgDqIvE2FyruY79L_OXLoJnDDjLpC2HkSQXlpAOFTHpMPhbTf44dpOwQMi9ydqCbeLQ-weW-BMQVuX1P5XzO47WPsWD-re4tzq8E5O7cjwtbCjJEOuXI6tCllmCIf8uWWDwx8AyuxwRmqdCqOEils_x3b4hvP2n-3cfLQvnlRTM2vAWXHda0-_gACoHvtvoiDHWQenBCUbMujeU8jrI7onn4IdSgOAbpFpYysVLx7rJAHvbjdE29Hg3bJiZ0CsnqKmAALeKiLC3up4y3ZjX27FNkGdvZzGj9aK7TmEzh7t2MO4BlooL1HUqjTGXh3cGUktn97WA2r3U4OJaqsSaHWsBvy8ZP_omHUghddBFr60218zWGq42PBfX-7cHV21oz_Pq2tVGAc--cmO-P9Ph47fWaLZ4f6129QseLvkDi5wrxtg0PFDzQmTcCF7m62_pvGg13llzoAOQPBUa0L_UD3jSi_ZRPDh1XziV8CumlecUFQAdg6bAel5mC5u8ATgOOFm-g_cchKpobSsMBnZUfEQpzyPjlhhra_qm05LXZwVSpjN2OQeA94Xh7kHyHSXh6fjhKzCwJ_yLnupJXKmDf0f_4Km-3s3vBbat5xC0mLW53hA_Sr155S7WfmQc9YbF-B-PqQMn7eZOhcuj73BmQpZfdaa6pnLh8t5_p_S6nqi2mjTb8s6sitcsQ_zeBqzxjej7A6UCZ-UT6K9QFqlED7WxjeHS4L4cfFc66bEwmCibcghUeQwoQW1-SDHnA93DJM5O-u0CwLrNZ3EgzC8SQryeOPTx4NEcJ58kVOIw9QsQAIQgkWFKpe-Du8vjPACp6oxQYpOQaF1yxWNE7PR3CE-xqRG4kqJhJ3kQ8VB-5uHkMYAluUxNlPu4uUeNSzNgChhnJrvIBMx9G21Lx9_MCtyF1VX1WD1aBD6Ub9KeN0ypWQns6TrxVZRqCRNSmZaRv_U08rcCTXJGPwXV0w-RqwBOfupnu_yArhTpUyLmN3c0fq-qt4q4lS0EPNJlfORAVpOhVf51bF2Fq_aQNj-rHDAwATfJkaE7Uxm4yTHsuzRE4bfko-jrbIXtr2DtT84R6zA8NiN_T-tFIAuWUFNZxgTjf81-dfojR65924FN5BrdCAaXnkZb1G3y7tFvdBXbQ5S0SzN813u3yMFl8SX7PG3yHkwdrOiyh9VnbhXP2Ps7lENKx16-8lBV5YpYpgwEwG7EFevrK8yfdZPL7_ZS62o22wglZyoSwmNKGVZKrZ-SEOsebC5cTsnwYQDPvItzJYD&opi=122715837
+            - img [ref=f8e37]
+          - link [ref=f8e39] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AWUvr316I3RSNCXbKufK3GNEi04s4pqtNlzGMFC1Hx8Bwp-HfvyHOimQSZbVUAoWuefxYdOOTTFU6cG8OO0qfJ3T376OnWOTBJ-n2B6Kco5k8BzDrxAUFCNLWWtKatzFj_GPMfmdvE4TSa0NSXJcORqAHwG1eJ1qC05MmsKBh4lpvrO5LX_u6Buhdu7_wDnbcELDS2skCKQp6Gq-HTOhqnYFosGrjzvT-fZtV95ODxxb31MmJeOcy1CN_ApAmfKMQxY9v8Dyf1BS60hKF69RFrhXyea40hd0JY2Qht9BKPYisNZ34rZE8e9LOhbaqS5xfP_3nWvIokZOPJc5_a_L8f0RLlD3jt5nBv0myQETVYhe0_CUdlMTHppwx90G0yu_wZworHhdX52z4gIAH-Y8I8znFei_J0x9X6VMvDqyuhKl7ckhundkBFxLD_NSB48wo1H9U19sRYfp4AiHnmqP3BulQCREz4NNfvOepZwymNxOA6FT9g03dW5R-vaWa9xf1653g1dNLSXBqEVRPOPJUaXpGGDX9VR_SgNF3bJ_JEq17upmpNe-rCvhkWd2BeIRxIJ3W8o5F5O7yANQWXOefhS63H-8lXOtWEHxoEhm_V3mI1Y7ANnXvVuOgQT25oejvC2Roq-AWkFtLFkr1nHV-Rbhi_eR1hVNUkayPsvjedUjJQIhsEGLQ1HPV12Cti6SBb2xwuvKUVCS4M642dNo5QCIm0bLWQgsIibE3yenJsKBJ1QZQmcu61HtMuYQwWIA1kZtlCX19JPSPwFPf_hAICz1KqnhBPv5DZJo3Kyd6cIcRt-OcnZb_JD6kzv7kJhTxqhHkHGYdh-uM28mdT1TLtb5jtUI85Dz0MgtPjA6Yk6Vy70NZLJVmhGLzbx9S-R_hhBFsUABa0Ktx1StGayPa7lr_bp8ExOrOCUVYjZcyqouNnMV6EIR0iwzzBNx3WKS2xP4oVmy1qY8smFVRMtJKmFx0cGl0FqjqoqZCwObv4nWLIGUjYzUkHAUTI5HQAbF6ESCJ81xVb3rhcpLR4NbBzZFwb0k59_z_4WKQ1SU4p7dQ1cx1OXIRArdosbEe3aO9tITM8GzEGZFkbRPINh8hyqwZfYQzDjyIIF6iKc5PWFX1iXZwSGxia5LEVBySdyQievQsUE4NoJwebWq_bGRguxudgabglmBzBDVWxaFhwWs81-wbvPZyngkzOs9W_gia4FlimHAjKynU2vWROvjFXBh37ZqFMinfHaR4Lghl5khnXJdsJ4uVKQsiFwhaxo1iX5-Dn_PwxizxptHkpf73RkFLJCa6P3xBhx3dCvY_7FlwxkFCCsL2U9rFnIwGhH9vIoMYL4rdeiNiWUhxqBRcOXUsuQL63ynKc9XHPqayr5Zqk8xqdrGhSf0bI3wHu-Wry_aN0tnFTqXIThwdL2uLQxcAueWZ21mxqL8KlXdoMcpgQOrDpOJHzuf4E5crZIR13A1o7WciJXgL0O98MiXdudgDqIvE2FyruY79L_OXLoJnDDjLpC2HkSQXlpAOFTHpMPhbTf44dpOwQMi9ydqCbeLQ-weW-BMQVuX1P5XzO47WPsWD-re4tzq8E5O7cjwtbCjJEOuXI6tCllmCIf8uWWDwx8AyuxwRmqdCqOEils_x3b4hvP2n-3cfLQvnlRTM2vAWXHda0-_gACoHvtvoiDHWQenBCUbMujeU8jrI7onn4IdSgOAbpFpYysVLx7rJAHvbjdE29Hg3bJiZ0CsnqKmAALeKiLC3up4y3ZjX27FNkGdvZzGj9aK7TmEzh7t2MO4BlooL1HUqjTGXh3cGUktn97WA2r3U4OJaqsSaHWsBvy8ZP_omHUghddBFr60218zWGq42PBfX-7cHV21oz_Pq2tVGAc--cmO-P9Ph47fWaLZ4f6129QseLvkDi5wrxtg0PFDzQmTcCF7m62_pvGg13llzoAOQPBUa0L_UD3jSi_ZRPDh1XziV8CumlecUFQAdg6bAel5mC5u8ATgOOFm-g_cchKpobSsMBnZUfEQpzyPjlhhra_qm05LXZwVSpjN2OQeA94Xh7kHyHSXh6fjhKzCwJ_yLnupJXKmDf0f_4Km-3s3vBbat5xC0mLW53hA_Sr155S7WfmQc9YbF-B-PqQMn7eZOhcuj73BmQpZfdaa6pnLh8t5_p_S6nqi2mjTb8s6sitcsQ_zeBqzxjej7A6UCZ-UT6K9QFqlED7WxjeHS4L4cfFc66bEwmCibcghUeQwoQW1-SDHnA93DJM5O-u0CwLrNZ3EgzC8SQryeOPTx4NEcJ58kVOIw9QsQAIQgkWFKpe-Du8vjPACp6oxQYpOQaF1yxWNE7PR3CE-xqRG4kqJhJ3kQ8VB-5uHkMYAluUxNlPu4uUeNSzNgChhnJrvIBMx9G21Lx9_MCtyF1VX1WD1aBD6Ub9KeN0ypWQns6TrxVZRqCRNSmZaRv_U08rcCTXJGPwXV0w-RqwBOfupnu_yArhTpUyLmN3c0fq-qt4q4lS0EPNJlfORAVpOhVf51bF2Fq_aQNj-rHDAwATfJkaE7Uxm4yTHsuzRE4bfko-jrbIXtr2DtT84R6zA8NiN_T-tFIAuWUFNZxgTjf81-dfojR65924FN5BrdCAaXnkZb1G3y7tFvdBXbQ5S0SzN813u3yMFl8SX7PG3yHkwdrOiyh9VnbhXP2Ps7lENKx16-8lBV5YpYpgwEwG7EFevrK8yfdZPL7_ZS62o22wglZyoSwmNKGVZKrZ-SEOsebC5cTsnwYQDPvItzJYD&opi=122715837
+            - img [ref=f8e41]
+        - img [ref=f8e44] [cursor=pointer]
+        - generic [ref=f8e55]:
+          - img [ref=f8e58]
+          - generic [ref=f8e61]:
+            - text: Ads by
+            - img [ref=f8e62]
+          - generic [ref=f8e65]:
+            - generic [ref=f8e68] [cursor=pointer]: Ad options
+            - generic [ref=f8e71] [cursor=pointer]: Send feedback
+            - link [ref=f8e73] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AWUvr316I3RSNCXbKufK3GNEi04s4pqtNlzGMFC1Hx8Bwp-HfvyHOimQSZbVUAoWuefxYdOOTTFU6cG8OO0qfJ3T376OnWOTBJ-n2B6Kco5k8BzDrxAUFCNLWWtKatzFj_GPMfmdvE4TSa0NSXJcORqAHwG1eJ1qC05MmsKBh4lpvrO5LX_u6Buhdu7_wDnbcELDS2skCKQp6Gq-HTOhqnYFosGrjzvT-fZtV95ODxxb31MmJeOcy1CN_ApAmfKMQxY9v8Dyf1BS60hKF69RFrhXyea40hd0JY2Qht9BKPYisNZ34rZE8e9LOhbaqS5xfP_3nWvIokZOPJc5_a_L8f0RLlD3jt5nBv0myQETVYhe0_CUdlMTHppwx90G0yu_wZworHhdX52z4gIAH-Y8I8znFei_J0x9X6VMvDqyuhKl7ckhundkBFxLD_NSB48wo1H9U19sRYfp4AiHnmqP3BulQCREz4NNfvOepZwymNxOA6FT9g03dW5R-vaWa9xf1653g1dNLSXBqEVRPOPJUaXpGGDX9VR_SgNF3bJ_JEq17upmpNe-rCvhkWd2BeIRxIJ3W8o5F5O7yANQWXOefhS63H-8lXOtWEHxoEhm_V3mI1Y7ANnXvVuOgQT25oejvC2Roq-AWkFtLFkr1nHV-Rbhi_eR1hVNUkayPsvjedUjJQIhsEGLQ1HPV12Cti6SBb2xwuvKUVCS4M642dNo5QCIm0bLWQgsIibE3yenJsKBJ1QZQmcu61HtMuYQwWIA1kZtlCX19JPSPwFPf_hAICz1KqnhBPv5DZJo3Kyd6cIcRt-OcnZb_JD6kzv7kJhTxqhHkHGYdh-uM28mdT1TLtb5jtUI85Dz0MgtPjA6Yk6Vy70NZLJVmhGLzbx9S-R_hhBFsUABa0Ktx1StGayPa7lr_bp8ExOrOCUVYjZcyqouNnMV6EIR0iwzzBNx3WKS2xP4oVmy1qY8smFVRMtJKmFx0cGl0FqjqoqZCwObv4nWLIGUjYzUkHAUTI5HQAbF6ESCJ81xVb3rhcpLR4NbBzZFwb0k59_z_4WKQ1SU4p7dQ1cx1OXIRArdosbEe3aO9tITM8GzEGZFkbRPINh8hyqwZfYQzDjyIIF6iKc5PWFX1iXZwSGxia5LEVBySdyQievQsUE4NoJwebWq_bGRguxudgabglmBzBDVWxaFhwWs81-wbvPZyngkzOs9W_gia4FlimHAjKynU2vWROvjFXBh37ZqFMinfHaR4Lghl5khnXJdsJ4uVKQsiFwhaxo1iX5-Dn_PwxizxptHkpf73RkFLJCa6P3xBhx3dCvY_7FlwxkFCCsL2U9rFnIwGhH9vIoMYL4rdeiNiWUhxqBRcOXUsuQL63ynKc9XHPqayr5Zqk8xqdrGhSf0bI3wHu-Wry_aN0tnFTqXIThwdL2uLQxcAueWZ21mxqL8KlXdoMcpgQOrDpOJHzuf4E5crZIR13A1o7WciJXgL0O98MiXdudgDqIvE2FyruY79L_OXLoJnDDjLpC2HkSQXlpAOFTHpMPhbTf44dpOwQMi9ydqCbeLQ-weW-BMQVuX1P5XzO47WPsWD-re4tzq8E5O7cjwtbCjJEOuXI6tCllmCIf8uWWDwx8AyuxwRmqdCqOEils_x3b4hvP2n-3cfLQvnlRTM2vAWXHda0-_gACoHvtvoiDHWQenBCUbMujeU8jrI7onn4IdSgOAbpFpYysVLx7rJAHvbjdE29Hg3bJiZ0CsnqKmAALeKiLC3up4y3ZjX27FNkGdvZzGj9aK7TmEzh7t2MO4BlooL1HUqjTGXh3cGUktn97WA2r3U4OJaqsSaHWsBvy8ZP_omHUghddBFr60218zWGq42PBfX-7cHV21oz_Pq2tVGAc--cmO-P9Ph47fWaLZ4f6129QseLvkDi5wrxtg0PFDzQmTcCF7m62_pvGg13llzoAOQPBUa0L_UD3jSi_ZRPDh1XziV8CumlecUFQAdg6bAel5mC5u8ATgOOFm-g_cchKpobSsMBnZUfEQpzyPjlhhra_qm05LXZwVSpjN2OQeA94Xh7kHyHSXh6fjhKzCwJ_yLnupJXKmDf0f_4Km-3s3vBbat5xC0mLW53hA_Sr155S7WfmQc9YbF-B-PqQMn7eZOhcuj73BmQpZfdaa6pnLh8t5_p_S6nqi2mjTb8s6sitcsQ_zeBqzxjej7A6UCZ-UT6K9QFqlED7WxjeHS4L4cfFc66bEwmCibcghUeQwoQW1-SDHnA93DJM5O-u0CwLrNZ3EgzC8SQryeOPTx4NEcJ58kVOIw9QsQAIQgkWFKpe-Du8vjPACp6oxQYpOQaF1yxWNE7PR3CE-xqRG4kqJhJ3kQ8VB-5uHkMYAluUxNlPu4uUeNSzNgChhnJrvIBMx9G21Lx9_MCtyF1VX1WD1aBD6Ub9KeN0ypWQns6TrxVZRqCRNSmZaRv_U08rcCTXJGPwXV0w-RqwBOfupnu_yArhTpUyLmN3c0fq-qt4q4lS0EPNJlfORAVpOhVf51bF2Fq_aQNj-rHDAwATfJkaE7Uxm4yTHsuzRE4bfko-jrbIXtr2DtT84R6zA8NiN_T-tFIAuWUFNZxgTjf81-dfojR65924FN5BrdCAaXnkZb1G3y7tFvdBXbQ5S0SzN813u3yMFl8SX7PG3yHkwdrOiyh9VnbhXP2Ps7lENKx16-8lBV5YpYpgwEwG7EFevrK8yfdZPL7_ZS62o22wglZyoSwmNKGVZKrZ-SEOsebC5cTsnwYQDPvItzJYD&opi=122715837
+              - generic [ref=f8e74]:
+                - text: Why this ad?
+                - img [ref=f8e75]
+        - generic [ref=f8e77]:
+          - generic [ref=f8e80] [cursor=pointer]: Seen this ad multiple times
+          - generic [ref=f8e83] [cursor=pointer]: Ad was inappropriate
+          - generic [ref=f8e86] [cursor=pointer]: Not interested in this ad
+          - generic [ref=f8e89] [cursor=pointer]: Ad covered content
+        - generic [ref=f8e95]: Thanks. Feedback improves Google ads
+        - generic [ref=f8e101]:
+          - text: Ad closed by
+          - img [ref=f8e102]
+        - generic [ref=f8e109]:
+          - img [ref=f8e112]
+          - generic [ref=f8e114]:
+            - generic [ref=f8e116]: Personalize ads on this site
+            - link [ref=f8e120] [cursor=pointer]:
+              - /url: https://support.google.com/ads/answer/10923348
+              - generic [ref=f8e121]:
+                - text: Learn more
+                - img [ref=f8e122]
+  - contentinfo [ref=e200]:
+    - generic [ref=e201]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

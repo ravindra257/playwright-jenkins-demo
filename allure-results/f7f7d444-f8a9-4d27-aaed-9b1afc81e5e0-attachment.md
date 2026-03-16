@@ -1,0 +1,893 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e8]:
+        - link "Skip to main content" [ref=e9] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - banner [ref=e10]:
+          - generic [ref=e12]:
+            - text:  
+            - link "Microsoft" [ref=e13] [cursor=pointer]:
+              - /url: https://www.microsoft.com
+              - img [ref=e14]
+              - generic [ref=e15]: Microsoft
+            - text:  
+            - link "Azure" [ref=e17] [cursor=pointer]:
+              - /url: https://azure.microsoft.com/en-us
+              - generic [ref=e18]: Azure
+            - navigation "Contextual menu" [ref=e19]:
+              - list [ref=e20]:
+                - listitem [ref=e21]:
+                  - link "Explore" [ref=e22] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/explore/
+                - listitem [ref=e23]:
+                  - button "Products " [ref=e25] [cursor=pointer]
+                - listitem [ref=e26]:
+                  - button "Solutions " [ref=e28] [cursor=pointer]
+                - listitem [ref=e29]:
+                  - button "Pricing " [ref=e31] [cursor=pointer]
+                - listitem [ref=e32]:
+                  - generic [ref=e33]:
+                    - button "More" [ref=e34] [cursor=pointer]: More 
+                    - text:      
+            - generic [ref=e35]:
+              - search [ref=e36]:
+                - button "Search Azure" [ref=e38] [cursor=pointer]: 
+              - navigation "All Microsoft menu" [ref=e40]:
+                - list [ref=e41]:
+                  - text:  
+                  - listitem [ref=e42]:
+                    - link "Learn" [ref=e43] [cursor=pointer]:
+                      - /url: https://learn.microsoft.com/azure
+                  - listitem [ref=e44]:
+                    - link "Support" [ref=e45] [cursor=pointer]:
+                      - /url: https://azure.microsoft.com/en-us/support/
+                  - listitem [ref=e46]:
+                    - link "Contact Sales" [ref=e47] [cursor=pointer]:
+                      - /url: https://azure.microsoft.com/en-us/contact
+                  - listitem [ref=e48]:
+                    - link "Get started with Azure" [ref=e49] [cursor=pointer]:
+                      - /url: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
+                  - listitem [ref=e50]:
+                    - link "Sign in" [ref=e51] [cursor=pointer]:
+                      - /url: https://portal.azure.com/
+      - main [ref=e53]:
+        - generic [ref=e56]:
+          - generic [ref=e60]:
+            - generic [ref=e62]:
+              - alert [ref=e63]:
+                - paragraph
+                - text: Introducing Claude Opus 4.6 in Microsoft Foundry.
+                - paragraph
+              - link "Read the blog to know about Claude Opus 4.6 in Microsoft Foundry." [ref=e66] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?linkid=2349922&clcid=0x409
+                - generic [ref=e67]: Read the blog
+            - button "Close Announcement Banner" [ref=e70] [cursor=pointer]: 
+          - generic [ref=e79]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: AZURE. LIMITLESS INNOVATION.
+              - heading "Databases designed for innovative AI apps and agents" [level=1] [ref=e86]
+              - generic [ref=e87]: Explore the latest AI-ready databases designed for modern workloads with flexibility, enterprise performance, and built-in scale. Try Azure free for up to 30 days.
+              - generic [ref=e89]:
+                - link "Get started with Azure and experience scalable and cost-efficient application management services" [ref=e90] [cursor=pointer]:
+                  - /url: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
+                  - generic [ref=e91]: Get started with Azure
+                - link "Explore Azure databases :Databases on Azure" [ref=e92] [cursor=pointer]:
+                  - /url: https://azure.microsoft.com/en-us/products/category/databases
+                  - generic [ref=e93]: Explore Azure databases
+            - group "Azure intelligent cloud" [ref=e100]:
+              - button "Play" [ref=e106] [cursor=pointer]:
+                - img [ref=e107]
+              - generic [ref=e109]: Paused
+          - generic:
+            - generic: 
+          - generic [ref=e111]:
+            - navigation "In Page Navigation" [ref=e113]:
+              - generic [ref=e114]:
+                - text: 
+                - generic "Featured news " [ref=e115]:
+                  - generic [ref=e116]:
+                    - list [ref=e118]:
+                      - listitem [ref=e119]:
+                        - link "Featured news" [ref=e120] [cursor=pointer]:
+                          - /url: "#featured-news"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: Featured news
+                      - listitem [ref=e122]:
+                        - link "Solutions" [ref=e123] [cursor=pointer]:
+                          - /url: "#solutions"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: Solutions
+                      - listitem [ref=e125]:
+                        - link "Products and services" [ref=e126] [cursor=pointer]:
+                          - /url: "#products-and-services"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: Products and services
+                      - listitem [ref=e128]:
+                        - link "Resources by role" [ref=e129] [cursor=pointer]:
+                          - /url: "#resources-by-role"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: Resources by role
+                      - listitem [ref=e131]:
+                        - link "Customer stories" [ref=e132] [cursor=pointer]:
+                          - /url: "#customer-stories"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: Customer stories
+                    - text:  
+              - link "Get started with Azure and experience scalable and cost-efficient application management services." [ref=e135] [cursor=pointer]:
+                - /url: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
+                - generic [ref=e136]: Get started with Azure
+            - generic [ref=e137]:
+              - generic [ref=e146]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]:
+                    - img [ref=e154]
+                    - heading "Ask Microsoft" [level=2] [ref=e156]
+                  - paragraph [ref=e158]: Need help finding a product or solution? Try Ask Microsoft.
+                - search [ref=e159]:
+                  - generic [ref=e161]:
+                    - searchbox "Ask a question about Azure." [ref=e162]
+                    - button "Submit" [disabled] [ref=e163]:
+                      - img [ref=e165]
+                  - list [ref=e169]:
+                    - listitem [ref=e170]:
+                      - button "How can I try Azure?" [ref=e171] [cursor=pointer]
+                    - listitem [ref=e172]:
+                      - button "How will Microsoft Foundry help my business?" [ref=e173] [cursor=pointer]
+              - generic [ref=e177]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]: FEATURED NEWS
+                  - heading "Discover what’s happening on Azure" [level=2] [ref=e187]
+                - generic [ref=e190]:
+                  - generic [ref=e196]:
+                    - generic [ref=e198]:
+                      - heading "Build smarter AI apps with PostgreSQL on Azure" [level=3] [ref=e202]:
+                        - generic [ref=e203]: Build smarter AI apps with PostgreSQL on Azure
+                      - generic [ref=e204]: Accelerate AI development with open PostgreSQL designed for scale, performance, and modern cloud workloads.
+                    - 'link "Learn more: Build Smarter with Azure HorizonDB" [ref=e207] [cursor=pointer]':
+                      - /url: https://go.microsoft.com/fwlink/?linkid=2347534&clcid=0x409
+                      - generic [ref=e209]: 
+                      - generic [ref=e210]: Learn more
+                  - generic [ref=e212]:
+                    - img "Blue and white background" [ref=e216]
+                    - generic [ref=e217]:
+                      - generic [ref=e219]:
+                        - 'heading "Meet Azure DocumentDB: Now generally available" [level=3] [ref=e223]':
+                          - generic [ref=e224]: "Meet Azure DocumentDB: Now generally available"
+                        - generic [ref=e225]: Build faster with a first-party, MongoDB-compatible database that’s open source, scalable, and enterprise-ready.
+                      - 'link "Learn more : Azure DocumentDB" [ref=e228] [cursor=pointer]':
+                        - /url: https://azure.microsoft.com/en-us/products/documentdb
+                        - generic [ref=e230]: 
+                        - generic [ref=e231]: Learn more
+                  - generic [ref=e233]:
+                    - img "Screenshot of some analysis and graphs" [ref=e237]
+                    - generic [ref=e238]:
+                      - generic [ref=e240]:
+                        - 'heading "Azure SQL Managed Instance: Faster performance, same price" [level=3] [ref=e244]':
+                          - generic [ref=e245]: "Azure SQL Managed Instance: Faster performance, same price"
+                        - generic [ref=e246]: Experience speed and performance gains with the next generation of the General-Purpose service tier—delivering more value at no additional cost.
+                      - link "Learn more :Azure SQL Managed Instance" [ref=e249] [cursor=pointer]:
+                        - /url: https://azure.microsoft.com/en-us/products/azure-sql/managed-instance/
+                        - generic [ref=e251]: 
+                        - generic [ref=e252]: Learn more
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+              - generic [ref=e256]:
+                - generic [ref=e262]:
+                  - generic [ref=e263]: SOLUTIONS
+                  - heading "Find solutions for putting your ideas into action" [level=2] [ref=e266]
+                - generic [ref=e268]:
+                  - generic [ref=e270]:
+                    - generic [ref=e272]:
+                      - tablist [ref=e275]:
+                        - tab "Featured solutions" [selected] [ref=e276] [cursor=pointer]
+                        - tab "Cloud migration" [ref=e277] [cursor=pointer]
+                        - tab "Data transformation" [ref=e278] [cursor=pointer]
+                        - tab "App development" [ref=e279] [cursor=pointer]
+                        - tab "AI" [ref=e280] [cursor=pointer]
+                      - text:  
+                    - generic [ref=e283]:
+                      - tabpanel [ref=e284]:
+                        - list [ref=e289]:
+                          - listitem [ref=e290]:
+                            - generic [ref=e292]:
+                              - button " Azure databases" [expanded] [ref=e294] [cursor=pointer]:
+                                - text: 
+                                - heading "Azure databases" [level=3] [ref=e295]:
+                                  - generic [ref=e297]: Azure databases
+                              - generic [ref=e299]:
+                                - generic [ref=e300]: Find the right databases for your needs—including relational, NoSQL, and caching.
+                                - generic [ref=e301]:
+                                  - 'link "Explore all databases : Databases on Azure" [ref=e303] [cursor=pointer]':
+                                    - /url: https://azure.microsoft.com/en-us/products/category/databases/
+                                    - generic [ref=e304]: Explore all databases
+                                  - generic [ref=e305]:
+                                    - img "Microsoft Foundry icon" [ref=e307]
+                                    - button "M icrosoftFoundry video" [ref=e310] [cursor=pointer]:
+                                      - generic [ref=e312]: 
+                          - listitem [ref=e313]:
+                            - button " SQL Server migration" [ref=e316] [cursor=pointer]:
+                              - text: 
+                              - heading "SQL Server migration" [level=3] [ref=e317]:
+                                - generic [ref=e319]: SQL Server migration
+                          - listitem [ref=e320]:
+                            - button " Azure AI apps and AI agents" [ref=e323] [cursor=pointer]:
+                              - text: 
+                              - heading "Azure AI apps and AI agents" [level=3] [ref=e324]:
+                                - generic [ref=e326]: Azure AI apps and AI agents
+                          - listitem [ref=e327]:
+                            - button " Azure application platform" [ref=e330] [cursor=pointer]:
+                              - text: 
+                              - heading "Azure application platform" [level=3] [ref=e331]:
+                                - generic [ref=e333]: Azure application platform
+                          - listitem [ref=e334]:
+                            - button " Data analytics for AI" [ref=e337] [cursor=pointer]:
+                              - text: 
+                              - heading "Data analytics for AI" [level=3] [ref=e338]:
+                                - generic [ref=e340]: Data analytics for AI
+                      - text:               
+                      - link "Back to tabs" [ref=e341] [cursor=pointer]:
+                        - /url: "#pill-bar-solutions_tab0-tab"
+                  - link "View all solutions (40 plus) of Azure Cloud" [ref=e343] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/solutions/
+                    - generic [ref=e345]: 
+                    - generic [ref=e346]: View all solutions (40+)
+              - generic [ref=e348]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]: Products and Services
+                  - heading "Explore tools for bringing your vision to life" [level=2] [ref=e358]
+                - generic [ref=e360]:
+                  - generic [ref=e362]:
+                    - generic [ref=e364]:
+                      - tablist [ref=e367]:
+                        - tab "Featured" [selected] [ref=e368] [cursor=pointer]
+                        - tab "AI + machine learning" [ref=e369] [cursor=pointer]
+                        - tab "App development" [ref=e370] [cursor=pointer]
+                        - tab "Compute" [ref=e371] [cursor=pointer]
+                        - tab "Databases + analytics" [ref=e372] [cursor=pointer]
+                        - tab "Hybrid + multicloud" [ref=e373] [cursor=pointer]
+                      - text:  
+                    - generic [ref=e376]:
+                      - tabpanel [ref=e377]:
+                        - generic [ref=e379]:
+                          - generic [ref=e386]:
+                            - heading "Azure Database for PostgreSQL" [level=3] [ref=e391]
+                            - generic [ref=e392]:
+                              - generic [ref=e393]: Innovate with a fully managed, AI-ready PostgreSQL database.
+                              - 'link "Explore the product : Azure Database for PostgreSQL" [ref=e397] [cursor=pointer]':
+                                - /url: https://azure.microsoft.com/en-us/products/postgresql/
+                                - generic [ref=e398]: Explore the product
+                          - generic [ref=e400]:
+                            - generic [ref=e403]:
+                              - generic [ref=e409]:
+                                - heading "Azure DocumentDB" [level=4] [ref=e413]:
+                                  - generic [ref=e414]: Azure DocumentDB
+                                - generic [ref=e415]: Discover a fully managed, open-source, and MongoDB-compatible document database for AI-driven apps, offering cross-cloud compatible solutions.
+                              - link "Explore the product - Azure DocumentDB" [ref=e418] [cursor=pointer]:
+                                - /url: https://azure.microsoft.com/en-us/products/documentdb
+                                - generic [ref=e419]: Explore the product
+                            - generic [ref=e422]:
+                              - generic [ref=e428]:
+                                - heading "Azure SQL Managed Instance" [level=4] [ref=e432]:
+                                  - generic [ref=e433]: Azure SQL Managed Instance
+                                - generic [ref=e434]: Modernize SQL Server applications with a managed, always-up-to-date SQL instance in the cloud.
+                              - link "Explore the product - Azure SQL Managed Instance" [ref=e437] [cursor=pointer]:
+                                - /url: https://azure.microsoft.com/en-us/products/azure-sql/managed-instance
+                                - generic [ref=e438]: Explore the product
+                            - generic [ref=e441]:
+                              - generic [ref=e447]:
+                                - heading "Azure Cosmos DB" [level=4] [ref=e451]:
+                                  - generic [ref=e452]: Azure Cosmos DB
+                                - generic [ref=e453]: Develop AI-powered apps and agents with a fully managed and serverless NoSQL vector database.
+                              - 'link "Explore the product: Azure Cosmos DB" [ref=e456] [cursor=pointer]':
+                                - /url: https://azure.microsoft.com/en-us/products/cosmos-db/
+                                - generic [ref=e457]: Explore the product
+                            - generic [ref=e460]:
+                              - generic [ref=e465]:
+                                - heading "Azure SQL" [level=4] [ref=e469]:
+                                  - generic [ref=e470]: Azure SQL
+                                - generic [ref=e471]: Migrate and modernize your SQL workloads.
+                              - 'link "Explore the product: Azure SQL" [ref=e474] [cursor=pointer]':
+                                - /url: https://azure.microsoft.com/en-us/products/azure-sql/
+                                - generic [ref=e475]: Explore the product
+                            - generic [ref=e478]:
+                              - generic [ref=e483]:
+                                - heading "Azure HorizonDB" [level=4] [ref=e487]:
+                                  - generic [ref=e488]: Azure HorizonDB
+                                - generic [ref=e489]: Build and scale mission-critical applications on a new PostgreSQL cloud database service engineered for performance.
+                              - 'link "Explore the product : Azure HorizonDB" [ref=e492] [cursor=pointer]':
+                                - /url: https://azure.microsoft.com/en-us/products/horizondb
+                                - generic [ref=e493]: Explore the product
+                            - generic [ref=e496]:
+                              - generic [ref=e501]:
+                                - heading "Microsoft Fabric" [level=4] [ref=e505]:
+                                  - generic [ref=e506]: Microsoft Fabric
+                                - generic [ref=e507]: Unify your teams and data to accelerate AI innovation with a complete data platform.
+                              - link "Explore the product - Power your AI transformation" [ref=e510] [cursor=pointer]:
+                                - /url: https://www.microsoft.com/en-us/microsoft-fabric
+                                - generic [ref=e511]: Explore the product
+                      - link "Back to tabs" [ref=e512] [cursor=pointer]:
+                        - /url: "#pill-bar-products_tab0-tab"
+                  - link "See all products (200+) of Azure cloud services" [ref=e514] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/products/
+                    - generic [ref=e516]: 
+                    - generic [ref=e517]: See all products (200+)
+              - generic [ref=e528]:
+                - img "Gartner Logo" [ref=e532]
+                - generic [ref=e533]:
+                  - generic [ref=e534]:
+                    - heading "See why Microsoft was named a Leader by Gartner®" [level=2] [ref=e539]:
+                      - generic [ref=e540]: See why Microsoft was named a Leader by Gartner®
+                    - generic [ref=e542]: Discover why Microsoft was named a Leader and positioned furthest to the right for Completeness of Vision in the 2024 Magic Quadrant™ for Strategic Cloud Platform Services (SCPS).
+                  - link "Read the blog Microsoft named a Leader in 2024 Gartner Magic Quadrant for Strategic Cloud Platform Services" [ref=e545] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?linkid=2293970&clcid=0x409
+                    - generic [ref=e546]: Read the blog
+              - generic [ref=e553]:
+                - generic [ref=e558]:
+                  - generic [ref=e559]: RESOURCES BY ROLE
+                  - heading "Transform the way you work" [level=2] [ref=e562]
+                - generic [ref=e567]:
+                  - generic [ref=e568]:
+                    - tablist [ref=e572]:
+                      - tab "IT professionals" [selected] [ref=e573] [cursor=pointer]:
+                        - generic [ref=e580]: IT professionals
+                      - tab "Developers" [ref=e582] [cursor=pointer]:
+                        - generic [ref=e589]: Developers
+                      - tab "Data analysts" [ref=e591] [cursor=pointer]:
+                        - generic [ref=e598]: Data analysts
+                      - tab "Business leaders" [ref=e600] [cursor=pointer]:
+                        - generic [ref=e607]: Business leaders
+                      - tab "Startups" [ref=e609] [cursor=pointer]:
+                        - generic [ref=e616]: Startups
+                      - tab "Students" [ref=e618] [cursor=pointer]:
+                        - generic [ref=e625]: Students
+                    - text:  
+                  - generic [ref=e627]:
+                    - tabpanel [ref=e628]:
+                      - generic [ref=e630]:
+                        - generic [ref=e632]:
+                          - generic [ref=e633]: Optimize your infrastructure with popular Azure solutions and services.
+                          - link "Explore migration solutions - Learn more about Azure solutions for migration, innovation, and digital transformation strategies." [ref=e637] [cursor=pointer]:
+                            - /url: https://azure.microsoft.com/en-us/solutions/migrate-to-innovate
+                            - generic [ref=e639]: 
+                            - generic [ref=e640]: Explore migration solutions
+                        - img "A man and a woman looking at a computer screen." [ref=e643]
+                    - text:     
+                    - link "Back to tabs" [ref=e644] [cursor=pointer]:
+                      - /url: "#tabs-resourcesbyrole_tab0-tab"
+              - generic [ref=e654]:
+                - heading "Global infrastructure designed to support the world’s most advanced AI" [level=2] [ref=e657]
+                - generic [ref=e659]:
+                  - text: From datacenters to silicon, Azure delivers infrastructure at global scale with more regions than any other cloud provider.
+                  - strong [ref=e660]: Maia 200
+                  - text: adds AI acceleration for faster, more efficient inference across Azure.
+                - generic [ref=e662]:
+                  - 'link "Explore the globe: Azure global infrastructure" [ref=e663] [cursor=pointer]':
+                    - /url: https://azure.microsoft.com/en-us/explore/global-infrastructure
+                    - generic [ref=e664]: Explore the globe
+                  - 'link "Discover Maia 200 : Maia 200: The AI accelerator built for inference" [ref=e665] [cursor=pointer]':
+                    - /url: https://go.microsoft.com/fwlink/?linkid=2349000&clcid=0x409
+                    - generic [ref=e666]: Discover Maia 200
+              - generic [ref=e668]:
+                - generic [ref=e671]:
+                  - generic [ref=e674]:
+                    - generic [ref=e675]: Customer Stories
+                    - heading "See how customers are innovating with Azure" [level=2] [ref=e678]
+                  - link "View all stories about Microsoft Azure customer success and solutions across industries." [ref=e682] [cursor=pointer]:
+                    - /url: https://www.microsoft.com/en-us/customers/search?filters=product%3Aazure
+                    - generic [ref=e683]: View all stories
+                - region "SUCCESS STORIES section" [ref=e688]:
+                  - generic [ref=e689]: previous
+                  - generic [ref=e690]:
+                    - text: 
+                    - list [ref=e691]:
+                      - listitem [ref=e692]:
+                        - button "Slide 1 Premier League drives deep fan connection with Microsoft Foundry and Azure Cosmos DB current slide" [ref=e693] [cursor=pointer]:
+                          - img "Premier League" [ref=e698]
+                          - generic [ref=e699]: Slide 1
+                      - listitem [ref=e700]:
+                        - button "Slide 2 Nasdaq transforms the boardroom experience with AI integration built on Azure" [ref=e701] [cursor=pointer]:
+                          - img "NASDAQ" [ref=e706]
+                          - generic [ref=e707]: Slide 1
+                      - listitem [ref=e708]:
+                        - button "Slide 3 Dentsu democratizes analytics with Fabric, delivering 55% faster data replication" [ref=e709] [cursor=pointer]:
+                          - img "Dentsu" [ref=e714]
+                          - generic [ref=e715]: Slide 1
+                      - listitem [ref=e716]:
+                        - button "Slide 4 August AI enriches patient care with AI health companion powered by Microsoft Azure" [ref=e717] [cursor=pointer]:
+                          - img "August AI" [ref=e722]
+                          - generic [ref=e723]: Slide 1
+                      - listitem [ref=e724]:
+                        - button "Slide 5 Ecolab embraces agentic AI and streamlines root-cause analysis with Azure SRE Agent" [ref=e725] [cursor=pointer]:
+                          - img "Ecolab" [ref=e730]
+                          - generic [ref=e731]: Slide 1
+                      - listitem [ref=e732]:
+                        - button "Slide 6 System performance at Apollo Hospitals improves significantly after migrating to Azure" [ref=e733] [cursor=pointer]:
+                          - img "Apollo Hospitals" [ref=e738]
+                          - generic [ref=e739]: Slide 1
+                    - text: 
+                  - generic [ref=e742]:
+                    - group "Slide 1 of 6" [ref=e743]:
+                      - generic [ref=e749]:
+                        - generic [ref=e750]:
+                          - img "Premier League" [ref=e754]
+                          - generic [ref=e755]:
+                            - heading "Premier League drives deep fan connection with Microsoft Foundry and Azure Cosmos DB" [ref=e756]
+                            - paragraph [ref=e757]: The Premier League is forging deep connections with its growing global fanbase, using Azure AI to unify data and personalize experiences.
+                        - generic [ref=e758]:
+                          - generic [ref=e759]:
+                            - text: Products
+                            - list [ref=e761]:
+                              - listitem [ref=e762]:
+                                - img "Azure Cosmos DB" [ref=e766]
+                                - link "Azure Cosmos DB" [ref=e768] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288071
+                              - listitem [ref=e769]:
+                                - img "Azure" [ref=e773]
+                                - link "Azure" [ref=e775] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2289004
+                              - listitem [ref=e776]:
+                                - img "Azure Data Factory" [ref=e780]
+                                - link "Azure Data Factory" [ref=e782] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288805
+                          - link "Read the story Premier League drives deep fan connection with Microsoft Foundry and Azure Cosmos DB" [ref=e785] [cursor=pointer]:
+                            - /url: https://www.microsoft.com/en/customers/story/25725-premier-league-azure-ai-foundry
+                            - generic [ref=e786]: Read the story
+                    - group [ref=e787]:
+                      - generic [ref=e793]:
+                        - generic [ref=e794]:
+                          - img [ref=e798]
+                          - generic [ref=e799]:
+                            - heading [ref=e800]: Nasdaq transforms the boardroom experience with AI integration built on Azure
+                            - paragraph [ref=e801]: Nasdaq is transforming board governance with Microsoft Foundry, cutting directors’ reading time and boosting decision speed, accuracy, and compliance.
+                        - generic [ref=e802]:
+                          - generic [ref=e803]:
+                            - text: Products
+                            - list [ref=e805]:
+                              - listitem [ref=e806]:
+                                - img [ref=e810]
+                                - link [ref=e812] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2289004
+                                  - text: Azure
+                              - listitem [ref=e813]:
+                                - img [ref=e817]
+                                - link [ref=e819] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288662
+                                  - text: Azure Database for PostgreSQL
+                              - listitem [ref=e820]:
+                                - img [ref=e824]
+                                - link [ref=e826] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288269
+                                  - text: Azure Kubernetes Service
+                          - link [ref=e829] [cursor=pointer]:
+                            - /url: https://www.microsoft.com/en/customers/story/25682-nasdaq-azure
+                            - generic [ref=e830]: Read the story
+                    - group [ref=e831]:
+                      - generic [ref=e837]:
+                        - generic [ref=e838]:
+                          - img [ref=e842]
+                          - generic [ref=e843]:
+                            - heading [ref=e844]: Dentsu democratizes analytics with Fabric, delivering 55% faster data replication
+                            - paragraph [ref=e845]: Dentsu transforms global analytics with Microsoft Fabric, accelerating insights and enabling AI ready decision making.
+                        - generic [ref=e846]:
+                          - generic [ref=e847]:
+                            - text: Products
+                            - list [ref=e849]:
+                              - listitem [ref=e850]:
+                                - img [ref=e854]
+                                - link [ref=e856] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288579
+                                  - text: Microsoft Fabric
+                              - listitem [ref=e857]:
+                                - img [ref=e861]
+                                - link [ref=e863] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2289004
+                                  - text: Azure
+                              - listitem [ref=e864]:
+                                - img [ref=e868]
+                                - link [ref=e870] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288369
+                                  - text: Power BI
+                          - link [ref=e873] [cursor=pointer]:
+                            - /url: https://www.microsoft.com/en/customers/story/25667-dentsu-microsoft-fabric
+                            - generic [ref=e874]: Read the story
+                    - group [ref=e875]:
+                      - generic [ref=e881]:
+                        - generic [ref=e882]:
+                          - img [ref=e886]
+                          - generic [ref=e887]:
+                            - heading [ref=e888]: August AI enriches patient care with AI health companion powered by Microsoft Azure
+                            - paragraph [ref=e889]: August AI is enriching patient care with a healthcare companion on Microsoft Azure that supports 3.5 million customers
+                        - generic [ref=e890]:
+                          - generic [ref=e891]:
+                            - text: Products
+                            - list [ref=e893]:
+                              - listitem [ref=e894]:
+                                - img [ref=e898]
+                                - link [ref=e900] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288634
+                                  - text: Linux on Azure
+                              - listitem [ref=e901]:
+                                - img [ref=e905]
+                                - link [ref=e907] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288662
+                                  - text: Azure Database for PostgreSQL
+                              - listitem [ref=e908]:
+                                - img [ref=e912]
+                                - link [ref=e914] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288742
+                                  - text: Azure Container Apps
+                          - link [ref=e917] [cursor=pointer]:
+                            - /url: https://www.microsoft.com/en/customers/story/25636-august-ai-linux-on-azure
+                            - generic [ref=e918]: Read the story
+                    - group [ref=e919]:
+                      - generic [ref=e925]:
+                        - generic [ref=e926]:
+                          - img [ref=e930]
+                          - generic [ref=e931]:
+                            - heading [ref=e932]: Ecolab embraces agentic AI and streamlines root-cause analysis with Azure SRE Agent
+                            - paragraph [ref=e933]: Ecolab is pioneering agentic AI for site reliability operations, streamlining incident response and root-cause analysis with Azure SRE Agent.
+                        - generic [ref=e934]:
+                          - generic [ref=e935]:
+                            - text: Products
+                            - list [ref=e937]:
+                              - listitem [ref=e938]:
+                                - img [ref=e942]
+                                - link [ref=e944] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2289004
+                                  - text: Azure
+                              - listitem [ref=e945]:
+                                - img [ref=e949]
+                                - link [ref=e951] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288828
+                                  - text: Azure Monitor
+                              - listitem [ref=e952]:
+                                - img [ref=e956]
+                                - link [ref=e958] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288655
+                                  - text: Azure DevOps
+                          - link [ref=e961] [cursor=pointer]:
+                            - /url: https://www.microsoft.com/en/customers/story/25633-ecolab-azure
+                            - generic [ref=e962]: Read the story
+                    - group [ref=e963]:
+                      - generic [ref=e969]:
+                        - generic [ref=e970]:
+                          - img [ref=e974]
+                          - generic [ref=e975]:
+                            - heading [ref=e976]: System performance at Apollo Hospitals improves significantly after migrating to Azure
+                            - paragraph [ref=e977]: Apollo Hospitals modernized its core systems with Azure, reducing delays, improving agility, and building a future-ready digital foundation for care.
+                        - generic [ref=e978]:
+                          - generic [ref=e979]:
+                            - text: Products
+                            - list [ref=e981]:
+                              - listitem [ref=e982]:
+                                - img [ref=e986]
+                                - link [ref=e988] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288662
+                                  - text: Azure Database for PostgreSQL
+                              - listitem [ref=e989]:
+                                - img [ref=e993]
+                                - link [ref=e995] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288395
+                                  - text: Azure Databricks
+                              - listitem [ref=e996]:
+                                - img [ref=e1000]
+                                - link [ref=e1002] [cursor=pointer]:
+                                  - /url: https://go.microsoft.com/fwlink/?linkid=2288579
+                                  - text: Microsoft Fabric
+                          - link [ref=e1005] [cursor=pointer]:
+                            - /url: https://www.microsoft.com/en/customers/story/25629-apollo-hospitals-azure-database-for-postgresql
+                            - generic [ref=e1006]: Read the story
+                  - link "Back to SUCCESS STORIES section" [ref=e1007] [cursor=pointer]:
+                    - /url: javascript:void(0);
+              - generic [ref=e1011]:
+                - heading "Take the next step" [level=2] [ref=e1020]
+                - generic [ref=e1026]:
+                  - generic [ref=e1029]:
+                    - generic [ref=e1031]:
+                      - heading "Choose the Azure account that’s right for you" [level=3] [ref=e1035]:
+                        - generic [ref=e1036]: Choose the Azure account that’s right for you
+                      - generic [ref=e1037]: Pay as you go or try Azure for free for up to 30 days.
+                    - link "Try Azure for free of Build in the cloud with an Azure free account" [ref=e1040] [cursor=pointer]:
+                      - /url: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
+                      - generic [ref=e1042]: 
+                      - generic [ref=e1043]: Get started with Azure
+                  - generic [ref=e1046]:
+                    - generic [ref=e1048]:
+                      - heading "Connect with a sales specialist" [level=3] [ref=e1052]:
+                        - generic [ref=e1053]: Connect with a sales specialist
+                      - generic [ref=e1055]: Chat with or call a sales specialist for personalized guidance.
+                    - link "Get in Touch with azure sales" [ref=e1058] [cursor=pointer]:
+                      - /url: https://azure.microsoft.com/en-us/contact/
+                      - generic [ref=e1060]: 
+                      - generic [ref=e1061]: Get in Touch
+                  - generic [ref=e1064]:
+                    - generic [ref=e1066]:
+                      - heading "New to Azure? Learn at your own pace" [level=3] [ref=e1070]:
+                        - generic [ref=e1071]: New to Azure? Learn at your own pace
+                      - generic [ref=e1073]: Learn cloud computing basics with self-paced modules on Microsoft Learn.
+                    - 'link "Get Started with Microsoft Azure Fundamentals: Describe cloud concepts" [ref=e1076] [cursor=pointer]':
+                      - /url: https://go.microsoft.com/fwlink/?linkid=2243365&clcid=0x409&hasfullconsent=true
+                      - generic [ref=e1078]: 
+                      - generic [ref=e1079]: Get Started
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+          - generic [ref=e1099]:
+            - link "Get the Azure mobile app" [ref=e1102] [cursor=pointer]:
+              - /url: https://azure.microsoft.com/en-us/get-started/azure-portal/mobile-app
+              - text: Get the Azure mobile app
+            - region "Social media to follow" [ref=e1104]:
+              - list [ref=e1105]:
+                - listitem [ref=e1106]:
+                  - link "follow Microsoft Azure on twitter" [ref=e1107] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?linkid=2275431
+                    - img "X" [ref=e1108]
+                - listitem [ref=e1109]:
+                  - link "follow Microsoft developer on Instagram" [ref=e1110] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?linkid=2301856
+                    - img "Instagram" [ref=e1111]
+                - listitem [ref=e1112]:
+                  - link "follow Microsoft Azure on LinkedIn" [ref=e1113] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?linkid=2268687
+                    - img "LinkedIn" [ref=e1114]
+                - listitem [ref=e1115]:
+                  - link "follow Microsoft Azure on YouTube" [ref=e1116] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?linkid=2239941
+                    - img "YouTube" [ref=e1117]
+      - contentinfo [ref=e1122]:
+        - navigation "Footer Resource links" [ref=e1123]:
+          - generic:
+            - generic [ref=e1124]:
+              - heading "Explore Azure" [level=2] [ref=e1125]
+              - list [ref=e1126]:
+                - listitem [ref=e1127]:
+                  - link "What is Azure? Explore Azure" [ref=e1128] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure/
+                    - text: What is Azure?
+                - listitem [ref=e1129]:
+                  - link "Get started with Azure Explore Azure" [ref=e1130] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/get-started/
+                    - text: Get started with Azure
+                - listitem [ref=e1131]:
+                  - link "Global infrastructure Explore Azure" [ref=e1132] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/explore/global-infrastructure/
+                    - text: Global infrastructure
+                - listitem [ref=e1133]:
+                  - link "Datacenter regions Explore Azure" [ref=e1134] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/
+                    - text: Datacenter regions
+                - listitem [ref=e1135]:
+                  - link "Trust your cloud Explore Azure" [ref=e1136] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/explore/trusted-cloud/
+                    - text: Trust your cloud
+                - listitem [ref=e1137]:
+                  - link "Azure Essentials Explore Azure" [ref=e1138] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/solutions/azure-essentials
+                    - text: Azure Essentials
+                - listitem [ref=e1139]:
+                  - link "Customer stories Explore Azure" [ref=e1140] [cursor=pointer]:
+                    - /url: https://www.microsoft.com/en-us/customers/search?filters=product%3Aazure
+                    - text: Customer stories
+            - generic [ref=e1141]:
+              - heading "Products and pricing" [level=2] [ref=e1142]
+              - list [ref=e1143]:
+                - listitem [ref=e1144]:
+                  - link "Products Products and pricing" [ref=e1145] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/products/
+                    - text: Products
+                - listitem [ref=e1146]:
+                  - link "Azure pricing Products and pricing" [ref=e1147] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/pricing/
+                    - text: Azure pricing
+                - listitem [ref=e1148]:
+                  - link "Free Azure services Products and pricing" [ref=e1149] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/pricing/free-services/
+                    - text: Free Azure services
+                - listitem [ref=e1150]:
+                  - link "Flexible purchase options Products and pricing" [ref=e1151] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/pricing/purchase-options/
+                    - text: Flexible purchase options
+                - listitem [ref=e1152]:
+                  - link "FinOps on Azure Products and pricing" [ref=e1153] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/solutions/finops/
+                    - text: FinOps on Azure
+                - listitem [ref=e1154]:
+                  - link "Optimize your costs Products and pricing" [ref=e1155] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/solutions/cost-optimization/
+                    - text: Optimize your costs
+            - generic [ref=e1156]:
+              - heading "Solutions and support" [level=2] [ref=e1157]
+              - list [ref=e1158]:
+                - listitem [ref=e1159]:
+                  - link "Solutions Solutions and support" [ref=e1160] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/solutions/
+                    - text: Solutions
+                - listitem [ref=e1161]:
+                  - link "Resources for accelerating growth Solutions and support" [ref=e1162] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/solutions/turn-your-vision-into-impact-with-azure/
+                    - text: Resources for accelerating growth
+                - listitem [ref=e1163]:
+                  - link "Solution architectures Solutions and support" [ref=e1164] [cursor=pointer]:
+                    - /url: https://learn.microsoft.com/azure/architecture/browse/
+                    - text: Solution architectures
+                - listitem [ref=e1165]:
+                  - link "Support Solutions and support" [ref=e1166] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/support/
+                    - text: Support
+                - listitem [ref=e1167]:
+                  - link "Azure demo and live Q&A Solutions and support" [ref=e1168] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/get-started/welcome-to-azure/
+                    - text: Azure demo and live Q&A
+          - generic:
+            - generic [ref=e1169]:
+              - heading "Partners" [level=2] [ref=e1170]
+              - list [ref=e1171]:
+                - listitem [ref=e1172]:
+                  - link "Software Development Companies Partners" [ref=e1173] [cursor=pointer]:
+                    - /url: https://www.microsoft.com/en-us/software-development-companies
+                    - text: Software Development Companies
+                - listitem [ref=e1174]:
+                  - link "Microsoft Marketplace Partners" [ref=e1175] [cursor=pointer]:
+                    - /url: https://marketplace.microsoft.com/en-us/
+                    - text: Microsoft Marketplace
+                - listitem [ref=e1176]:
+                  - link "Find a partner Partners" [ref=e1177] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/partners/
+                    - text: Find a partner
+            - generic [ref=e1178]:
+              - heading "Resources" [level=2] [ref=e1179]
+              - list [ref=e1180]:
+                - listitem [ref=e1181]:
+                  - link "Documentation Resources" [ref=e1182] [cursor=pointer]:
+                    - /url: https://learn.microsoft.com/en-us/azure/
+                    - text: Documentation
+                - listitem [ref=e1183]:
+                  - link "Blog Resources" [ref=e1184] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/blog/
+                    - text: Blog
+                - listitem [ref=e1185]:
+                  - link "Developer resources Resources" [ref=e1186] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/developers/
+                    - text: Developer resources
+                - listitem [ref=e1187]:
+                  - link "Students Resources" [ref=e1188] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/students/
+                    - text: Students
+                - listitem [ref=e1189]:
+                  - link "Events and Webinars Resources" [ref=e1190] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/events/
+                    - text: Events and Webinars
+                - listitem [ref=e1191]:
+                  - link "Analyst reports, white papers, and e-books Resources" [ref=e1192] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/research/
+                    - text: Analyst reports, white papers, and e-books
+                - listitem [ref=e1193]:
+                  - link "Videos Resources" [ref=e1194] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/videos
+                    - text: Videos
+            - generic [ref=e1195]:
+              - heading "Cloud computing" [level=2] [ref=e1196]
+              - list [ref=e1197]:
+                - listitem [ref=e1198]:
+                  - link "What is cloud computing? Cloud computing" [ref=e1199] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+                    - text: What is cloud computing?
+                - listitem [ref=e1200]:
+                  - link "What is multicloud? Cloud computing" [ref=e1201] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-multi-cloud
+                    - text: What is multicloud?
+                - listitem [ref=e1202]:
+                  - link "What is machine learning? Cloud computing" [ref=e1203] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-machine-learning-platform
+                    - text: What is machine learning?
+                - listitem [ref=e1204]:
+                  - link "What is deep learning? Cloud computing" [ref=e1205] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-deep-learning
+                    - text: What is deep learning?
+                - listitem [ref=e1206]:
+                  - link "What is AIaaS? Cloud computing" [ref=e1207] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-aiaas
+                    - text: What is AIaaS?
+                - listitem [ref=e1208]:
+                  - link "What are LLMs? Cloud computing" [ref=e1209] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-large-language-models-llms
+                    - text: What are LLMs?
+                - listitem [ref=e1210]:
+                  - link "What is a container? Cloud computing" [ref=e1211] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container
+                    - text: What is a container?
+                - listitem [ref=e1212]:
+                  - link "What is RAG? Cloud computing" [ref=e1213] [cursor=pointer]:
+                    - /url: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag
+                    - text: What is RAG?
+        - generic [ref=e1214]:
+          - link "Content Language Selector. Currently set to English (United States)" [ref=e1215] [cursor=pointer]:
+            - /url: https://azure.microsoft.com/en-us/locale
+            - text:  English (United States)
+          - link "Your Privacy Choices Opt-Out Icon Your Privacy Choices" [ref=e1216] [cursor=pointer]:
+            - /url: https://aka.ms/yourcaliforniaprivacychoices
+            - img "Your Privacy Choices Opt-Out Icon" [ref=e1217]
+            - generic [ref=e1222]: Your Privacy Choices
+          - link "Consumer Health Privacy" [ref=e1223] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?linkid=2259814
+            - generic [ref=e1224]: Consumer Health Privacy
+          - navigation "Microsoft corporate links":
+            - list [ref=e1225]:
+              - listitem [ref=e1226]:
+                - link "Sitemap" [ref=e1227] [cursor=pointer]:
+                  - /url: https://www.microsoft.com/en-us/sitemap1.aspx
+              - listitem [ref=e1228]:
+                - link "Contact Microsoft" [ref=e1229] [cursor=pointer]:
+                  - /url: https://support.microsoft.com/contactus
+              - listitem [ref=e1230]:
+                - link "Privacy" [ref=e1231] [cursor=pointer]:
+                  - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+              - listitem [ref=e1232]:
+                - link "Terms of use" [ref=e1233] [cursor=pointer]:
+                  - /url: https://go.microsoft.com/fwlink/?LinkID=206977
+              - listitem [ref=e1234]:
+                - link "Trademarks" [ref=e1235] [cursor=pointer]:
+                  - /url: https://go.microsoft.com/fwlink/?linkid=2196228
+              - listitem [ref=e1236]:
+                - link "Safety & eco" [ref=e1237] [cursor=pointer]:
+                  - /url: https://go.microsoft.com/fwlink/?linkid=2196227
+              - listitem [ref=e1238]:
+                - link "Recycling" [ref=e1239] [cursor=pointer]:
+                  - /url: https://www.microsoft.com/en-us/legal/compliance/recycling
+              - listitem [ref=e1240]:
+                - link "About our ads" [ref=e1241] [cursor=pointer]:
+                  - /url: https://choice.microsoft.com
+              - listitem [ref=e1242]: © Microsoft 2026
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button "Open Ask Microsoft web assistant" [ref=e1243] [cursor=pointer]:
+                - img [ref=e1246]
+                - generic [ref=e1250]: Ask Microsoft
+                - button "Chat dialog Collapsed. Click to expand Ask Microsoft chat dialog." [ref=e1251]:
+                  - img [ref=e1254]
+              - dialog "Web Assistant":
+                - generic: Ask questions or make requests to the web AI assistant. Use the text input at the bottom to send messages.
+  - generic: 
+```
